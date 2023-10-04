@@ -18,7 +18,7 @@ main{
 }
 
 header{
-    border-bottom:7px solid #CC5803;
+    border-bottom:15px solid #CC5803;
     margin:0px;
     background-size:cover;
     height:450px;
@@ -26,6 +26,7 @@ header{
     background-color: palegoldenrod;
     padding-top:20px;
     background-image:url("forras/fox-laughing-1.png");
+    background-position-y:-150px;
 }
 
 nav{
@@ -39,9 +40,11 @@ nav:hover{
 
 h1{
     position:relative;
-    left:35%;
+    left:10%;
     top:20%;
     font-size:100px;
+    width:80%;
+    text-align:center;
 }
 
 h2{
