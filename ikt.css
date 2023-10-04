@@ -1,0 +1,67 @@
+body{
+    background-color:#FF9505;
+    color:#000;
+    margin:0;
+
+}
+
+main{
+    background-color:#FFC971;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:65%;
+    min-height:700px;
+    margin-bottom:30px;
+    margin-top:90px;
+    padding:50px 60px 60px 60px;
+}
+
+header{
+    border-bottom:7px solid #CC5803;
+    margin:0px;
+    background-size:cover;
+    height:450px;
+    background-repeat:no-repeat;
+    background-color: palegoldenrod;
+    padding-top:20px;
+    background-image:url("forras/fox-laughing-1.png");
+    bottom:;
+}
+
+nav{
+    position:fixed;
+    background-color:#e2711d;
+}
+
+nav:hover{
+    background-color:#ffb627;
+}
+
+h1{
+    position:relative;
+    left:35%;
+    top:20%;
+    font-size:100px;
+}
+
+h2{
+    background-color:rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    height:40px;
+    margin-bottom:20px;
+    padding-left:20px;
+    padding-top:10px;
+}
+
+p{
+    text-indent:12px;
+    font-family:Verdana;
+    font-size: 15px;
+    letter-spacing:1px;
+}
+
+li{
+    list-style-image:("/forras/");
+    /*Kutyaszar képnek*/
+}
