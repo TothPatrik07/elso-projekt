@@ -1,32 +1,33 @@
 body{
-    background-color:#FF9505;
+    background-color:#FFC971;
     color:#000;
     margin:0;
 
 }
 
 main{
-    background-color:#FFC971;
+    background-color:#FF9505;
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width:65%;
+    width:60%;
     min-height:700px;
     margin-bottom:30px;
     margin-top:90px;
     padding:50px 60px 60px 60px;
+    border-radius: 20px;
 }
 
 header{
-    border-bottom:15px solid #CC5803;
+    border-bottom:15px solid #d66d0a;
     margin:0px;
     background-size:cover;
-    height:450px;
+    height:500px;
     background-repeat:no-repeat;
-    background-color: palegoldenrod;
     padding-top:20px;
     background-image:url("forras/fox-laughing-1.png");
-    background-position-y:-150px;
+    background-position-x: center;
+    background-position-y: center;
 }
 
 nav{
@@ -48,12 +49,13 @@ h1{
 }
 
 h2{
-    background-color:rgb(255, 255, 255);
+    background-color: #d66d0a;
     color:rgb(0, 0, 0);
     height:40px;
     margin-bottom:20px;
     padding-left:20px;
     padding-top:10px;
+    border-radius: 15px;
 }
 
 p{
@@ -64,6 +66,20 @@ p{
 }
 
 li{
-    list-style-image:("/forras/");
-    /*Kutyaszar képnek*/
+    background-size: 30px;
+    list-style: none;
+    padding: 11px 30px;
+    background-image: url("forras/kutyaszar.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    /*Kutyaszar*/
 }
+
+footer {
+    text-align: center;
+}
+
+/*
+#d66d0a
+#CC5803
+*/
