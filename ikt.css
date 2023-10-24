@@ -2,7 +2,6 @@ body{
     background-color:#FFC971;
     color:#000;
     margin:0;
-
 }
 
 main{
@@ -14,29 +13,19 @@ main{
     min-height:700px;
     margin-bottom:30px;
     margin-top:90px;
-    padding:50px 60px 60px 60px;
+    padding: 10px 60px 60px 60px;
     border-radius: 20px;
 }
 
 header{
-    border-bottom:15px solid #d66d0a;
     margin:0px;
     background-size:cover;
     height:500px;
     background-repeat:no-repeat;
     padding-top:20px;
-    background-image:url("forras/fox-laughing-1.png");
+    background-image:url("./forras/állatok.png");
     background-position-x: center;
     background-position-y: center;
-}
-
-nav{
-    position:fixed;
-    background-color:#e2711d;
-}
-
-nav:hover{
-    background-color:#ffb627;
 }
 
 h1{
@@ -45,25 +34,16 @@ h1{
     top:20%;
     font-size:100px;
     width:80%;
-    text-align:center;
 }
 
 h2{
     background-color: #d66d0a;
     color:rgb(0, 0, 0);
-    height:40px;
+    height:42.8px;
     margin-bottom:20px;
     padding-left:20px;
-    padding-top:10px;
     border-radius: 15px;
     border: #d66d0a;
-}
-
-p{
-    text-indent:12px;
-    font-family:Verdana;
-    font-size: 15px;
-    letter-spacing:1px;
 }
 
 li{
@@ -73,14 +53,23 @@ li{
     background-image: url("forras/kutyaszar.png");
     background-repeat: no-repeat;
     background-position: left center;
-    /*Kutyaszar*/
 }
 
-footer {
-    text-align: center;
+#gif {
+    height: 48px;
 }
 
-/*
-#d66d0a
-#CC5803
-*/
+#cica {
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbar {
+    background-color: #d66d0a;
+}
+
+.nav-link {
+    font-size: 30px;
+    margin-right: 30px;
+}
